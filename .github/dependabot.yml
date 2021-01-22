@@ -4,12 +4,5 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: "10:00"
-    timezone: Europe/Vienna
-  pull-request-branch-name:
-    separator: "-"
-  open-pull-requests-limit: 99
-  allow:
-  - dependency-type: direct
-  - dependency-type: indirect
-  rebase-strategy: disabled
+    time: "22:00"
+  open-pull-requests-limit: 10
